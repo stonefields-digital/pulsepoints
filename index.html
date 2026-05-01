@@ -81,7 +81,7 @@
 
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
       
-      <form id="feedbackForm" method="POST" target="hidden_iframe" onsubmit="handleFormSubmit(this)">
+      <form id="feedbackForm" method="POST" target="hidden_iframe" onsubmit="return handleFormSubmit(this)">
       <input type="hidden" name="tag" id="tagInput" value="">
 
         <div class="space-y-4 mb-8">
